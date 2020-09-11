@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+<link rel="stylesheet" href="style.css" />
+<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+<title>Bunny Adoption</title>
+</head>
+<body>
+
+<header>
+<h1>Bunny Adoption</h1>
+<p id="description">These are your first steps in caring and loving your own furry friend!</p>
+</header>
+
+<main>
+
+<div>
+<form id="survey-form">
+  
+  <div class="div">
+    <div>
+      <label id="name-label" for="name"> Name</label>
+    </div>
+    <div>
+      <input id="name" required type="text" name="name" placeholder="Please enter your name" id="name" >
+    </div>  
+  </div>
+
+  <div class="div">
+    <div>
+      <label id="email-label" for="email"> Email</label>
+    </div>
+    <div>
+      <input type="email" id="email" required name="email" placeholder="Please enter your email" >
+    </div>  
+  </div>
+  
+  <div class="div">
+    <div>
+      <label id="number-label" for="number"> Age (optional)</label>
+    </div>
+    <div> 
+      <input id="number" required type="number" name="number" placeholder="Age" id="number" min="1" max="150" >
+    </div>    
+  </div>
+  
+  <div class="div">
+    <div>
+      <label for="pets">Years of Rabbit Experience</label>
+    </div>
+    <div>
+      <select id= "dropdown" name="pets">
+        <option value=""></option>
+        <option value="none">none</option>
+        <option value="0-6 months">0-6 months</option>
+        <option value="6 months-1year">6 months - 1 year</option>
+        <option value="1-3 years">1-3 years</option>
+        <option value="3 years +">3 years +</option>
+      </select>
+    </div>   
+  </div>
+  
+  <div class="div">
+    <div>
+      <label>What other pets do you have</label>
+    </div>
+    <div id="pets">
+      <div>
+        <input type="checkbox" name="pets" value="Dog">
+        <label for="Dog">Dog(s)</label>
+      </div>
+      <div>
+        <input type="checkbox" name="pets" value="Cat">
+        <label for="Cat">Cat(s)</label>
+      </div>
+      <div>
+        <input type="checkbox" name="pets" value="Bird">
+        <label for="Bird">Bird(s)</label>
+      </div>
+      <div>
+        <input type="checkbox" name="pets" value="Snake">
+        <label for="Snake">Snake(s)</label>
+      </div>
+      <div>
+      <input type="checkbox" name="pets" value="Other">
+      <label for="Other">Other</label>
+    </div>
+    </div>    
+  </div>
+  
+  <div class="div">
+    <div>
+      <label>What is the cutest primary color for a rabbit</label>
+    </div> 
+    <div id="color">
+      <div>
+        <input type="radio" name="color" value="Brown">
+        <label for="Brown">Brown</label>
+      </div> 
+      <div>
+        <input type="radio" name="color" value="White">
+        <label for="White">White</label>
+      </div> 
+      <div> 
+        <input type="radio" name="color" value="Gray">
+        <label for="Gray">Gray</label>
+      </div>
+      <div>
+        <input type="radio" name="color" value="Black">
+        <label for="Black">Black</label>
+      </div> 
+    </div>   
+    
+  </div>
+  
+  <div class="div">
+    <div>
+      <label>Please tell us why you are looking to adopt a Bunny</label>
+    </div>
+    <div>
+      <textarea id="textarea" rows="10" cols="20" placeholder="Enter your comment here...."></textarea>
+    </div>    
+  </div>
+  
+  <div class="div">
+    <button id="submit" type="submit" value="submit">Submit</button>
+  </div>
+
+
+</form>
+</div>
+
+</main>
+
+
+
+</body>
+
+</html>
